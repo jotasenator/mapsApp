@@ -1,9 +1,10 @@
 import { PlacesProvider } from "./context/places";
+import { HomeScreen } from "./screens/HomeScreen";
 
 export const MapsApp = () => {
   return (
     <PlacesProvider>
-      <h1>Hola mundo</h1>
+      <HomeScreen />
     </PlacesProvider>
   );
 };
