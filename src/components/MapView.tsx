@@ -9,5 +9,5 @@ export const MapView = () => {
     return <Loading />;
   }
 
-  return <div>{userLocation?.join(",")}</div>;
+  return <div className="center-div">{userLocation?.join(",")}</div>;
 };
